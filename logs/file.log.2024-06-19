@@ -1,0 +1,16 @@
+{"@timestamp":"2024-06-19T08:34:01.4178264-03:00","message":"Starting DatadogApplication using Java 22.0.1 with PID 16340 (C:\\Users\\Lelis\\Downloads\\datadog-main\\target\\classes started by Lelis in C:\\Users\\Lelis\\Downloads\\datadog-main)","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:01.4178264-03:00","message":"No active profile set, falling back to 1 default profile: \"default\"","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:02.9855019-03:00","message":"Multiple Spring Data modules found, entering strict repository configuration mode","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:02.9855019-03:00","message":"Bootstrapping Spring Data Redis repositories in DEFAULT mode.","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:03.0323841-03:00","message":"Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.3308124-03:00","message":"Tomcat initialized with port 8080 (http)","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.3473731-03:00","message":"Initializing ProtocolHandler [\"http-nio-8080\"]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.3473731-03:00","message":"Starting service [Tomcat]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.3473731-03:00","message":"Starting Servlet engine: [Apache Tomcat/10.1.24]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.4258467-03:00","message":"Initializing Spring embedded WebApplicationContext","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.4414801-03:00","message":"Root WebApplicationContext: initialization completed in 2929 ms","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:04.6044799-03:00","message":"publishing metrics for DatadogMeterRegistry every 1m","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:07.1618487-03:00","message":"Exposing 1 endpoint beneath base path '/actuator'","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:07.2564149-03:00","message":"Starting ProtocolHandler [\"http-nio-8080\"]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:07.2876593-03:00","message":"Tomcat started on port 8080 (http) with context path '/'","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-19T08:34:07.3253234-03:00","message":"Started DatadogApplication in 6.553 seconds (process running for 7.866)","thread_name":"main","level":"INFO"}

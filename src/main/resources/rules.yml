@@ -1,0 +1,14 @@
+groups:
+
+  - name: hosts
+    rules:
+      - record: service_api_up
+        expr: up{application="service-api-user", instance="host.docker.internal:8080", job="users-job"}
+
+      - alert: Uptime
+        expr: service_api_up == 0 and ON() (hour()-3) == 12
+        for: 0s
+        labels:
+          severity: critical
+        annotations:
+          summary: "O servidor  está offline as 09h da manha"

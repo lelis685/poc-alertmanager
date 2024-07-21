@@ -1,0 +1,32 @@
+{"@timestamp":"2024-06-20T20:48:10.8744824-03:00","message":"Starting DatadogApplication using Java 22.0.1 with PID 7536 (C:\\Users\\Lelis\\Downloads\\datadog-main\\target\\classes started by Lelis in C:\\Users\\Lelis\\Downloads\\datadog-main)","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:10.9086483-03:00","message":"No active profile set, falling back to 1 default profile: \"default\"","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:12.500559-03:00","message":"Multiple Spring Data modules found, entering strict repository configuration mode","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:12.500559-03:00","message":"Bootstrapping Spring Data Redis repositories in DEFAULT mode.","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:12.567889-03:00","message":"Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.8114312-03:00","message":"Tomcat initialized with port 8080 (http)","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.8323406-03:00","message":"Initializing ProtocolHandler [\"http-nio-8080\"]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.8323406-03:00","message":"Starting service [Tomcat]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.8323406-03:00","message":"Starting Servlet engine: [Apache Tomcat/10.1.24]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.9117843-03:00","message":"Initializing Spring embedded WebApplicationContext","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:13.9117843-03:00","message":"Root WebApplicationContext: initialization completed in 2940 ms","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:14.0523507-03:00","message":"publishing metrics for DatadogMeterRegistry every 1m","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:16.4500251-03:00","message":"Exposing 1 endpoint beneath base path '/actuator'","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:16.5314524-03:00","message":"Starting ProtocolHandler [\"http-nio-8080\"]","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:16.5475934-03:00","message":"Tomcat started on port 8080 (http) with context path '/'","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:48:16.5669895-03:00","message":"Started DatadogApplication in 6.356 seconds (process running for 7.97)","thread_name":"main","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:03.6114723-03:00","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'","thread_name":"http-nio-8080-exec-2","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:03.6124767-03:00","message":"Initializing Servlet 'dispatcherServlet'","thread_name":"http-nio-8080-exec-2","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:03.6134731-03:00","message":"Completed initialization in 1 ms","thread_name":"http-nio-8080-exec-2","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:03.782473-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-2","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:03.7854731-03:00","message":"Validating user.","thread_name":"http-nio-8080-exec-2","level":"INFO","Endpoint":"save","TraceId":"a9a7788b-c1f8-4820-91a4-e7bae139edf8","UserId":"1"}
+{"@timestamp":"2024-06-20T20:49:05.796422-03:00","message":"Saving user.","thread_name":"http-nio-8080-exec-2","level":"INFO","Endpoint":"save","TraceId":"a9a7788b-c1f8-4820-91a4-e7bae139edf8","UserId":"1"}
+{"@timestamp":"2024-06-20T20:49:11.7141046-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-3","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:11.7141046-03:00","message":"Finding user.","thread_name":"http-nio-8080-exec-3","level":"INFO","Endpoint":"find","TraceId":"2e7d0c05-ab70-40eb-a3d5-da4467b4d26d","UserId":"1"}
+{"@timestamp":"2024-06-20T20:49:13.1540595-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-4","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:13.1551368-03:00","message":"Finding user.","thread_name":"http-nio-8080-exec-4","level":"INFO","Endpoint":"find","TraceId":"aeda8ca9-43f0-4a58-a404-6dcf7d392603","UserId":"1"}
+{"@timestamp":"2024-06-20T20:49:15.3839217-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-6","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:15.3839217-03:00","message":"Finding user.","thread_name":"http-nio-8080-exec-6","level":"INFO","Endpoint":"find","TraceId":"a3f2a3fd-f1ca-46da-8ac1-065692775fba","UserId":"1"}
+{"@timestamp":"2024-06-20T20:49:15.8131684-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-7","level":"INFO"}
+{"@timestamp":"2024-06-20T20:49:15.8141708-03:00","message":"Finding user.","thread_name":"http-nio-8080-exec-7","level":"INFO","Endpoint":"find","TraceId":"5440fd2c-15b0-4fbe-be27-b6030e17a5d5","UserId":"1"}
+{"@timestamp":"2024-06-20T20:50:27.3680181-03:00","message":"Received request.","thread_name":"http-nio-8080-exec-9","level":"INFO"}
+{"@timestamp":"2024-06-20T20:50:27.3691323-03:00","message":"Finding user.","thread_name":"http-nio-8080-exec-9","level":"INFO","Endpoint":"find","TraceId":"522c3c40-b4f3-4f75-a5d3-7dd3d3375f02","UserId":"1"}
