@@ -1,4 +1,4 @@
-package com.example.datadog.config;
+package com.example.prometheus.config;
 
 import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.MeterRegistry;

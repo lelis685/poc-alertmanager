@@ -1,9 +1,9 @@
-package com.example.datadog.service;
+package com.example.prometheus.service;
 
 
-import com.example.datadog.config.MetricsHelper;
-import com.example.datadog.repository.UserData;
-import com.example.datadog.repository.UserRepository;
+import com.example.prometheus.config.MetricsHelper;
+import com.example.prometheus.repository.UserData;
+import com.example.prometheus.repository.UserRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

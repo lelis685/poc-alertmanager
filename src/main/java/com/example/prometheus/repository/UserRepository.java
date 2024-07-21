@@ -1,4 +1,4 @@
-package com.example.datadog.repository;
+package com.example.prometheus.repository;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

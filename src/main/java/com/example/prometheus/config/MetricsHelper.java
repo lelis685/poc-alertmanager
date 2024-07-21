@@ -1,4 +1,4 @@
-package com.example.datadog.config;
+package com.example.prometheus.config;
 
 import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;

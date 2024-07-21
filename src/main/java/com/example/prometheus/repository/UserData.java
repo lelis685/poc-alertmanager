@@ -1,4 +1,4 @@
-package com.example.datadog.repository;
+package com.example.prometheus.repository;
 
 import java.util.Objects;
 

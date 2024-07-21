@@ -1,7 +1,7 @@
-package com.example.datadog.controller;
+package com.example.prometheus.controller;
 
-import com.example.datadog.repository.UserData;
-import com.example.datadog.service.UserService;
+import com.example.prometheus.repository.UserData;
+import com.example.prometheus.service.UserService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.micrometer.core.annotation.Timed;
 import lombok.RequiredArgsConstructor;
